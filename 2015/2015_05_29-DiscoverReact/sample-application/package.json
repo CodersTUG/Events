@@ -1,0 +1,28 @@
+{
+  "name": "react-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.4",
+    "events": "^1.0.2",
+    "jquery": "^2.1.4",
+    "ramda": "^0.14.0",
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.1",
+    "live-server": "^0.7.1",
+    "parallelshell": "^1.1.1",
+    "watchify": "^3.2.1"
+  },
+  "scripts": {
+    "watch": "watchify -t babelify ./src/app.jsx -o ./dist/bundle.js -v -d",
+    "server:simple": "python -m SimpleHTTPServer 3123",
+    "server:reload": "live-server --port=8080",
+    "start": "parallelshell \"npm run watch\" \"npm run server:reload\""
+  },
+  "author": "",
+  "license": "ISC"
+}

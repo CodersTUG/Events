@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+	color: #333;
+	background-color: #eee;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.app-title {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 50px;
+  	color: #008BFF;
+  	font-weight: bold;
+  	margin-bottom: 20px;
+}
+
+.catalog {
+	padding: 10px;
+	background-color: #fff;
+	border: solid 2px #ddd;
+}
+
+.cart {
+	padding: 10px;
+	background-color: #FF8D2E;
+  	border: solid 2px #F07610;
+}
+
+.catalog-item {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	border: solid 1px #999;
+}
+
+.cart-item div {
+	display: inline-block;
+	margin: 0 3px;
+	padding: 2px;
+	font-size: 18px;
+}
+
+.cart-item button {
+	margin-right: 3px;
+}
+
+.gold-order {
+	background-color: #069B00;
+	padding: 5px;
+}
+
+/*---------- Animations ----------*/
+.add-to-cart-appear {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+
+.add-to-cart-appear-active {
+  opacity: 1;
+}
+
+.add-to-cart-enter {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+
+.add-to-cart-enter-active {
+  opacity: 1;
+}
+
+.add-to-cart-leave {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.add-to-cart-leave-active {
+  opacity: 0.01;
+}
