@@ -1,2 +1,2 @@
-# 2016_02_16-BOXPUGFeb16Meeting
-http://boxpug0216.eventbrite.it
+# 2016_01_19-BOXPUGJan16Meeting
+http://boxpug0116.eventbrite.it
